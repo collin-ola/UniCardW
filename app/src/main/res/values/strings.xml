@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">UniCard 1.0</string>
+    <string name="servicedesc">UniCardWService</string>
+    <string name="aiddescription">UniCardAG1</string>
+    <string name="string_please">Please enter your login details to load your University Card.</string>
+    <string name="string_buttonLogin">Login</string>
+    <string name="string_Username">Username</string>
+    <string name="string_Password">Password</string>
+    <string name="string_ID_Num">ID Number:</string>
+    <string name="string_LibCardNum">Library Card Number:</string>
+    <string name="string_Status">Status</string>
+    <string name="string_startDate">Start Date:</string>
+    <string-array name="string_array_status">
+        <item>Select below:</item>
+        <item>UG Student</item>
+        <item>PG Student</item>
+        <item>Staff</item>
+        <item>Associate</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="string_ID">Student ID Number</string>
+    <string name="string_StartDate">Start Date</string>
+    <string name="string_LCN">Library Card No.   </string>
+    <string name="string_FN">(FirstName)</string>
+    <string name="string_LastName">(LastName)</string>
+    <string name="string_MidName">(MidName)</string>
+    <string name="string_ID_Num_Placeholder">(ID)</string>
+    <string name="string_StartDate_Placeholder">(Start Date)</string>
+    <string name="string_LCN_Placeholder">(LCN)</string>
+    <string name="string_Status_Placeholder">(Status)</string>
+    <string name="string_Camera">Take Photo</string>
+    <string name="string_titleIDStaff">"Staff ID Number   "</string>
+    <string name="string_RememberMe">Remember Me!</string>
+</resources>

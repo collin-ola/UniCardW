@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.appsbycollin.unicardw.MainActivity">
+
+    <!--TODO: Show/Hide Password Button-->
+
+    <Button
+        android:layout_marginBottom="50dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/string_buttonLogin"
+        android:id="@+id/ID_buttonLogin"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="onClick"
+        android:layout_alignParentEnd="false" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/uni_logo"
+        android:layout_alignBottom="@+id/ID_textViewPlease"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="37dp"
+        android:id="@+id/ID_iV_Logo" />
+
+    <TextView
+        android:text="@string/string_please"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ID_textViewPlease"
+        android:textSize="16sp"
+        android:textStyle="normal|bold"
+        android:textAlignment="center"
+        android:layout_marginTop="69dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="@string/string_Password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ID_tV_Password"
+        android:textStyle="normal|bold"
+        android:textSize="16sp"
+        android:layout_marginLeft="150dp"
+        android:layout_above="@+id/ID_eT_Username"
+        android:layout_toEndOf="@+id/ID_eT_Username" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/ID_eT_Password"
+        android:layout_below="@+id/ID_tV_Password"
+        android:layout_toEndOf="@+id/ID_buttonLogin" />
+
+    <TextView
+        android:text="@string/string_Username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ID_tV_Username"
+        android:textSize="16sp"
+        android:textStyle="normal|bold"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="41dp"
+        android:layout_below="@+id/ID_iV_Logo"
+        android:layout_alignStart="@+id/ID_textViewPlease" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/ID_eT_Username"
+        android:textSize="16sp"
+        android:layout_below="@+id/ID_tV_Username"
+        android:layout_toStartOf="@+id/ID_buttonLogin" />
+
+</RelativeLayout>

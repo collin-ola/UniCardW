@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "572006114412",
+    "firebase_url": "https://unicardw.firebaseio.com",
+    "project_id": "unicardw",
+    "storage_bucket": "unicardw.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:572006114412:android:0523ba6f1e2b5e09",
+        "android_client_info": {
+          "package_name": "com.appsbycollin.unicardw"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "572006114412-egbfevn4e5cdphsm9sqkldflta86h9ri.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.appsbycollin.unicardw",
+            "certificate_hash": "bf4464318fc7165fbf15fac2b90c60b3992748ab"
+          }
+        },
+        {
+          "client_id": "572006114412-e93c98opr467i43qbehjsajapbvecnhq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7SDWPa4OvNxVse-efIkoKNIVLX0ybNhc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "572006114412-e93c98opr467i43qbehjsajapbvecnhq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_unicard"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="5dp"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.appsbycollin.unicardw.UniCardActivity"
+    android:background="@drawable/cardp">
+
+    <TextView
+        android:text="@string/string_MidName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:id="@+id/ID_tV_MidName"
+        android:textStyle="normal|bold"
+        android:textSize="10sp"
+        android:layout_alignBaseline="@+id/ID_tV_FirstName"
+        android:layout_alignBottom="@+id/ID_tV_FirstName"
+        android:layout_toEndOf="@+id/ID_tV_FirstName"
+        android:elevation="3dp" />
+
+    <TextView
+        android:text="@string/string_LastName"
+        android:layout_height="wrap_content"
+        android:id="@+id/ID_tV_LastName"
+        android:textStyle="normal|bold"
+        android:textSize="10sp"
+        android:elevation="3dp"
+        android:layout_below="@+id/ID_tV_FirstName"
+        android:layout_width="wrap_content" />
+
+    <TextView
+        android:text="@string/string_FN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ID_tV_FirstName"
+        android:textStyle="normal|bold"
+        android:textSize="10sp"
+        android:elevation="3dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="175dp" />
+
+    <TextView
+        android:text="@string/string_StartDate_Placeholder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ID_tv_StartDate_txt"
+        android:elevation="3dp"
+        android:textSize="10sp"
+        android:layout_below="@+id/ID_tV_StartDate"
+        android:layout_alignLeft="@+id/ID_tV_ID_txt" />
+
+    <TextView
+        android:text="@string/string_LCN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ID_tV_LCN"
+        android:textStyle="normal|bold"
+        android:elevation="0dp"
+        android:textSize="10sp"
+        android:layout_below="@+id/ID_tv_StartDate_txt"
+        android:layout_alignStart="@+id/ID_tv_StartDate_txt"
+        android:layout_marginTop="11dp" />
+
+    <TextView
+        android:text="@string/string_ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ID_tV_ID"
+        android:textStyle="normal|bold"
+        android:elevation="3dp"
+        android:textSize="10sp"
+        android:layout_below="@+id/ID_tV_Status_txt"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="21dp" />
+
+    <TextView
+        android:text="@string/string_ID_Num_Placeholder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ID_tV_ID_txt"
+        android:elevation="3dp"
+        android:textSize="10sp"
+        android:layout_below="@+id/ID_tV_ID"
+        android:layout_alignStart="@+id/ID_tV_ID" />
+
+    <TextView
+        android:text="@string/string_StartDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ID_tV_StartDate"
+        android:textStyle="normal|bold"
+        android:elevation="3dp"
+        android:textSize="10sp"
+        android:layout_marginTop="11dp"
+        android:layout_below="@+id/ID_tV_ID_txt"
+        android:layout_alignStart="@+id/ID_tV_ID_txt" />
+
+    <TextView
+        android:text="@string/string_LCN_Placeholder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ID_tV_LCN_txt"
+        android:elevation="3dp"
+        android:textSize="10sp"
+        android:layout_below="@+id/ID_tV_LCN"
+        android:layout_alignStart="@+id/ID_tV_LCN" />
+
+    <TextView
+        android:text="@string/string_Status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ID_tV_Status"
+        android:textStyle="normal|bold"
+        android:textSize="10sp"
+        android:elevation="3dp"
+        android:layout_above="@+id/ID_tV_Status_txt"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="@string/string_Status_Placeholder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ID_tV_Status_txt"
+        android:textSize="10sp"
+        android:elevation="3dp"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/ID_tV_LastName"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/uni_logo"
+        android:id="@+id/ID_iV_Logo"
+        android:layout_alignParentEnd="false"
+        android:layout_alignStart="@+id/ID_tV_ID"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="false"
+        android:layout_above="@+id/ID_tV_ID"
+        android:paddingTop="60dp" />
+
+    <Button
+        android:text="@string/string_Camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ID_buttonTakePic"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="false"
+        android:onClick="onClick"
+        android:layout_marginTop="100dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/id_blank_p"
+        android:id="@+id/ID_iV_Pic"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="110dp"
+        android:elevation="0dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/bc_p"
+        android:id="@+id/ID_IV_BCP"
+        android:layout_below="@+id/ID_tV_LCN"
+        android:layout_alignEnd="@+id/ID_buttonTakePic"
+        android:layout_marginEnd="8dp" />
+
+</RelativeLayout>
